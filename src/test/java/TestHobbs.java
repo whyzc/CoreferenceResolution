@@ -14,7 +14,7 @@ public class TestHobbs {
     TreeNode goal;
     @Before
     public void setUp() {
-	TreeNode s1 = new TreeNode("IP");
+	TreeNode s1 = new TreeNode("IP");	//句一：小明的妈妈是一名教师。
 	s1.addChild("NP");
 	s1.addChild("VP");
 	s1.addChild("PU");
@@ -64,7 +64,7 @@ public class TestHobbs {
 	s1Layer53.addChild("名");
 	
 	
-	TreeNode s2 = new TreeNode("IP");
+	TreeNode s2 = new TreeNode("IP");		//句二：家长们都很欣赏她。
 	s2.addChild("IP");
 	s2.addChild("PU");
 	/*---------------------*/
